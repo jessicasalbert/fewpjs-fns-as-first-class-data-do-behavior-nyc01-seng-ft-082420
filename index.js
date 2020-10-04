@@ -11,6 +11,10 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
+<<<<<<< HEAD
+=======
+
+>>>>>>> 12cca4173aa457f3b55ddb7771e1de142d8aa891
 function greet(time) {
   const hour = parseInt(time.slice(0, 3))
   if (hour < 12) {
@@ -22,5 +26,9 @@ function greet(time) {
 }
 
 function displayMessage(string) {
+<<<<<<< HEAD
   document.getElementById("greeting").textContent = string;
+=======
+  document.getElementById("greeting").innerText = string;
+>>>>>>> 12cca4173aa457f3b55ddb7771e1de142d8aa891
 }
